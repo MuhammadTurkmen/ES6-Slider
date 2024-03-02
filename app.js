@@ -5,6 +5,6 @@ const nextBtn = document.querySelector('.next-btn')
 const prevBtn = document.querySelector('.prev-btn')
 
 // set slides
-container.innerHTML = people.map((person) => {
+container.innerHTML = people.map((person, slideIndex) => {
 
 })
