@@ -20,4 +20,4 @@ container.innerHTML = people.map((person, slideIndex) => {
                 <div class="fas fa-quote-right"></div>
                 </div>
              </article>`
-})
+}).join('')
