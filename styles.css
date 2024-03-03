@@ -272,6 +272,5 @@ h4 {
   transform: translateX(100%);
 }
 .slide.last {
-  opacity: 1;
   transform: translateX(-100%);
 }
