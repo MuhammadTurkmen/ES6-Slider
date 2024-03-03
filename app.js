@@ -29,8 +29,7 @@ container.innerHTML = people.map((person, slideIndex) => {
 }).join('')
 
 const startSlide = (type) => {
- console.log('hello world');
- console.log(type);
+    const active = document.querySelector('.active')
 }
 
 nextBtn.addEventListener('click', () => {
