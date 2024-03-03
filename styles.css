@@ -249,4 +249,5 @@ h4 {
 
 .slide-container {
   display: flex;
+  position: relative;
 }
