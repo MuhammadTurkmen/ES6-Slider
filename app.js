@@ -29,5 +29,5 @@ container.innerHTML = people.map((person, slideIndex) => {
 }).join('')
 
 const startSlide = (type) => {
-
+ console.log('hello world');
 }
