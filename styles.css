@@ -271,7 +271,7 @@ h4 {
 .slide.next {
   transform: translateX(100%);
 }
-.slide.active {
+.slide.last {
   opacity: 1;
   transform: translateX(0);
 }
