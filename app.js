@@ -45,6 +45,9 @@ const startSlide = (type) => {
         last.classList.add('active')
         next = last.previousElementSibling
 
+        if(!next) {
+            next = container.lastElementChild
+        }
         next.classList.add('last')
         return
     }
