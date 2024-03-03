@@ -268,9 +268,8 @@ h4 {
   opacity: 1;
   transform: translateX(0);
 }
-.slide.active {
-  opacity: 1;
-  transform: translateX(0);
+.slide.next {
+  transform: translateX(100%);
 }
 .slide.active {
   opacity: 1;
