@@ -30,6 +30,7 @@ container.innerHTML = people.map((person, slideIndex) => {
 
 const startSlide = (type) => {
  console.log('hello world');
+ console.log(type);
 }
 
 nextBtn.addEventListener('click', () => {
