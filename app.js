@@ -32,6 +32,7 @@ const startSlide = (type) => {
     const active = document.querySelector('.active')
     const last = document.querySelector('.last')
     let next = active.nextElementSibling
+    console.log(next);
 }
 
 nextBtn.addEventListener('click', () => {
