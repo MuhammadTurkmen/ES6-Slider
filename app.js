@@ -40,7 +40,9 @@ const startSlide = (type) => {
     next.classList.remove(['next'])
 
 
-    if(type === 'prev')
+    if(type === 'prev') {
+        return
+    }
 
 
     active.classList.add('last')
