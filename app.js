@@ -32,5 +32,9 @@ const startSlide = (type) => {
  console.log('hello world');
 }
 
-nextBtn.addEventListener('click', startSlide)
-nextBtn.addEventListener('click', startSlide)
+nextBtn.addEventListener('click', () => {
+    startSlide()
+})
+nextBtn.addEventListener('click', () => {
+    startSlide()
+})
