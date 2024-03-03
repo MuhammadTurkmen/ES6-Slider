@@ -39,6 +39,10 @@ const startSlide = (type) => {
     last.classList.remove(['last'])
     next.classList.remove(['next'])
 
+
+    if(type === 'prev')
+
+
     active.classList.add('last')
     last.classList.add('next')
     next.classList.add('active')
