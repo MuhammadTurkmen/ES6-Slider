@@ -30,6 +30,7 @@ container.innerHTML = people.map((person, slideIndex) => {
 
 const startSlide = (type) => {
     const active = document.querySelector('.active')
+    const last = document.querySelector('.last')
 }
 
 nextBtn.addEventListener('click', () => {
