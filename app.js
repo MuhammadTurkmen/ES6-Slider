@@ -32,6 +32,9 @@ const startSlide = (type) => {
     const active = document.querySelector('.active')
     const last = document.querySelector('.last')
     let next = active.nextElementSibling
+    if(!next) {
+        next = container.firstChild
+    }
     active.classList.remove(['active'])
     last.classList.remove(['last'])
     next.classList.remove(['next'])
@@ -45,6 +48,6 @@ const startSlide = (type) => {
 nextBtn.addEventListener('click', () => {
     startSlide()
 })
-nextBtn.addEventListener('click', () => {
+prevBtn.addEventListener('click', () => {
     startSlide('prev')
 })
