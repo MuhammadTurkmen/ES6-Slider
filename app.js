@@ -10,7 +10,7 @@ container.innerHTML = people.map((person, slideIndex) => {
     // more logic later
     let position = 'next'
     if(slideIndex === 0 ) {
-        
+        position = 'active'
     }
     return `<article class="slide ${position}">
                 <img src="${img}" class="img" alt="${name}">
