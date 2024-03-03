@@ -37,5 +37,5 @@ nextBtn.addEventListener('click', () => {
     startSlide()
 })
 nextBtn.addEventListener('click', () => {
-    startSlide()
+    startSlide('prev')
 })
