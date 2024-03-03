@@ -266,4 +266,5 @@ h4 {
 
 .slide.active {
   opacity: 1;
+  transform: translateX(0);
 }
