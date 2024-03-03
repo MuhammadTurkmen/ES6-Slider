@@ -37,6 +37,8 @@ const startSlide = (type) => {
     next.classList.remove(['next'])
 
     active.classList.add('last')
+    active.classList.add('last')
+    active.classList.add('last')
 
 }
 
