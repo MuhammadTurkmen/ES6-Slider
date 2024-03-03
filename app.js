@@ -42,6 +42,7 @@ const startSlide = (type) => {
 
     if(type === 'prev') {
         active.classList.add('next')
+        last.classList.add('active')
         return
     }
 
